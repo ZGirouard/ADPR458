@@ -1,8 +1,8 @@
-import './App.css'
-import Headshot from './assets/Headshot.jpeg'
+import '../App.css'
+import Headshot from '../assets/Headshot.jpeg'
 
 
-function App() {
+function Assignments() {
   return (
     <>
     <div className='app'>
@@ -57,4 +57,4 @@ function App() {
   )
 }
 
-export default App
+export default Assignments
