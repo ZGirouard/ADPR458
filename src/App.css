@@ -40,3 +40,34 @@
 .content {
   text-align: left;
 }
+
+.threeColumn {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.navLink {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.twoColumn {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+}
