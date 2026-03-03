@@ -14,7 +14,7 @@ function Assignments() {
       <header className='header'>Interactive Media Design</header>
         <div className='content'>
           <nav className='nav'>
-            <ul>
+            <ul className='navList'>
               <li><a className='navLink' href="/assignments">About</a></li>
               <li><a className='navLink' href="/work">Work</a></li>
               <li><a className='navLink' href="/contact">Contact</a></li>

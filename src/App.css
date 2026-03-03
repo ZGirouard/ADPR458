@@ -24,7 +24,7 @@
 .header {
   background-color: rgb(34, 139, 34, 0.9);
   padding: 30px;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 800;
   border-radius: 20px;
   margin-bottom: 30px;
@@ -49,12 +49,31 @@
   padding: 20px;
 }
 
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  border-radius: 10px;
+  width: 60%;
+  justify-self: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding: 10px;
+}
+
 .navLink {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
   transition: color 0.3s ease;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .contactContent {
