@@ -3,6 +3,11 @@ import Headshot from '../assets/Headshot.jpeg'
 
 
 function Assignments() {
+
+  const openLinkedIn = () => {
+    window.open("https://www.linkedin.com/in/zachary-girouard-85832525a/", "_blank");
+  }
+
   return (
     <>
     <div className='app'>
@@ -46,12 +51,15 @@ function Assignments() {
                   </div>
                 </section>
             </div>
+            <div>
               <aside className='headshotContainer'>
                 <img
                 src={Headshot} 
                 alt='Headshot of Zach Girouard'
                 className='headshot'/>
-            </aside>
+              </aside>
+            <button className='linkedin-button' onClick={openLinkedIn}>Connect on LinkedIn</button>
+            </div>
           </div>
           <div>
           </div>
